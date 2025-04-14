@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>
+    tSunami_sTORE
+  </title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #49708a;">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 text-white pe-5 " href="./index.html">
+          <img src="images/logo.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+          tSUNAMI_sTORE
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item fs-4">
+              <a class="nav-link active text-white" aria-current="page" href="./index.html">
+                hOME
+              </a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" href="./pages/products.html">
+                pRODUCT_lIST
+              </a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white " href="./pages/locations.html">
+                lOCATIONS
+              </a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" href="./pages/contact.html">
+                cONTACT_uS
+              </a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" href="./pages/history.html">
+                aBOUT_uS
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="carrusel">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/carruselElectronica.webp" class="d-block w-100" alt="electronica">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carruselCelulares.webp" class="d-block w-100" alt="celulares">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carruselComputacion.webp" class="d-block w-100" alt="computacion">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          Previous
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          Next
+        </span>
+      </button>
+    </div>
+  </div>
+  <div class="banner">
+    <img src="./images/bannerTsunami.png" alt="banner">
+  </div>
+  <div class="grilla container-fluid mb-4 text-center">
+    <p class="fs-2 p-4 text-black mb-4" style="background-color: #88abc2;">
+      ¡¡¡tOP-sELLING_pRODUCTS!!!
+    </p>
+    <div class="row row-cols-auto justify-content-center">
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productPhone.webp" class="card-img-top" alt="phone">
+        <div class="card-body">
+          <h5 class="card-title">
+            $159.999,99"
+          </h5>
+          <p class="card-text">
+            Smartphone TCL 50 5g 256gb Black.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productTV.webp" class="card-img-top" alt="TV">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 449.999,99
+          </h5>
+          <p class="card-text">
+            TV Samsung Smart 70" Full HD 4K.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productNotebook.webp" class="card-img-top" alt="notebook">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 759.999,99
+          </h5>
+          <p class="card-text">
+            Notebook HP Core I5-1235u 8gb Ssd 256gb Silver.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productDisplay.webp" class="card-img-top" alt="display">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 259.999,99
+          </h5>
+          <p class="card-text">
+            Display LG 27" Full Hd IPS Technology.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productSpeaker.webp" class="card-img-top" alt="speaker">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 266.999,99
+          </h5>
+          <p class="card-text">
+            Speaker JBL Charge 4 portable waterproof.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productHeadset.webp" class="card-img-top" alt="headset">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 135.999,99
+          </h5>
+          <p class="card-text">
+            Headset Bluetooth JBL Tune 770nc.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productPhone.webp" class="card-img-top" alt="phone">
+        <div class="card-body">
+          <h5 class="card-title">
+            $159.999,99"
+          </h5>
+          <p class="card-text">
+            Smartphone TCL 50 5g 256gb Black.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productTV.webp" class="card-img-top" alt="TV">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 449.999,99
+          </h5>
+          <p class="card-text">
+            TV Samsung Smart 70" Full HD 4K.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productNotebook.webp" class="card-img-top" alt="notebook">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 759.999,99
+          </h5>
+          <p class="card-text">
+            Notebook HP Core I5-1235u 8gb Ssd 256gb Silver.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productDisplay.webp" class="card-img-top" alt="display">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 259.999,99
+          </h5>
+          <p class="card-text">
+            Display LG 27" Full Hd IPS Technology.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productSpeaker.webp" class="card-img-top" alt="speaker">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 266.999,99
+          </h5>
+          <p class="card-text">
+            Speaker JBL Charge 4 portable waterproof.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+      <div class="col card text-center m-2" style="width: 18rem;">
+        <img src="./images/productHeadset.webp" class="card-img-top" alt="headset">
+        <div class="card-body">
+          <h5 class="card-title">
+            $ 135.999,99
+          </h5>
+          <p class="card-text">
+            Headset Bluetooth JBL Tune 770nc.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Add to Cart
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="newsletter mb-4">
+    <form class="row justify-content-md-center">
+      <fieldset class="mt-4 mb-5 text-center fs-3">
+        ¡¡¡sUSCRIBE_tO_tHE_nEWSLETTER!!!
+      </fieldset>
+      <div class="col-md-6 text-center mb-4">
+        <label for="inputName" class="form-label fs-5">
+          fIRSTNAME
+        </label>
+        <input type="text" class="form-control text-center" id="inputName" placeholder="name">
+      </div>
+      <div class="col-md-6 text-center mb-4">
+        <label for="inputLastname" class="form-label fs-5">
+          lASTNAME
+        </label>
+        <input type="text" class="form-control text-center" id="inputLastname" placeholder="lastname">
+      </div>
+      <div class="col-md-6 text-center">
+        <label for="inputEmail" class="form-label fs-5">
+          pHONE_nUMBER
+        </label>
+        <input type="email" class="form-control text-center" id="inputAddress" placeholder="(011)-1111-1111">
+      </div>
+      <div class="col-md-6 text-center">
+        <label for="inputEmail" class="form-label fs-5">
+          eMAIL
+        </label>
+        <input type="email" class="form-control text-center" id="inputAddress" placeholder="a@email.com">
+      </div>
+
+      <div class="col-12 text-center mt-3">
+        <div class="form-check">
+          <input class="form-check-input-center" type="checkbox" id="gridCheck">
+          <label class="form-check-label fs-5 " for="gridCheck">
+            i aGREE tO rECEIVE tHE nEWS
+          </label>
+
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-dark btn-lg mb-2 mt-2">
+          sUBMIT
+        </button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class="linkedPages container-fluid" style="background-color: #88abc2;border: 1px solid black;">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-6 col-md-6 col-12 mt-5 mb-4">
+          <p class="text-center fs-3">
+            pHONE_nUMBER= 0800-265-1536
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 mt-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-3 col-3 text-center">
+              <a href="http://www.facebook.com" target="_blank">
+                <img src="./images/facebookLogo.png" alt="facebook" width="80px">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 text-center">
+              <a href="http://www.whatsapp.com" target="_blank">
+                <img src="./images/whatsappLogo.png" alt="whatsapp" width="80px">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 text-center">
+              <a href="http://www.youtube.com" target="_blank">
+                <img src="./images/youtubeLogo.png" alt="youtube" width="80px">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 text-center">
+              <a href="http://www.linkedin.com" target="_blank">
+                <img src="./images/linkedinLogo.png" alt="linkedin" width="80px">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="infoRedirection container-fluid" style="background-color: #d0e0eb;">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mt-5  mb-4 text-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="fs-4">
+                cONTACT_iNFO=
+              </p>
+            </div>
+            <div class="col-lg-12">
+              <p class="fs-5">
+                201 Spear St, San Francisco, California
+              </p>
+            </div>
+            <div class="col-lg-12">
+              <p class="fs-5">
+                STE:1100-236
+              </p>
+            </div>
+            <div class="col-lg-12">
+              <p class="fs-5"></p>
+            </div>
+            <div class="col-lg-12">
+              <p class="fs-5">
+                Copyright © 1996-2025 Moschitta Nicolas S.A.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mt-4 mb-2 text-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="./index.html" class="fs-5 text-black text-decoration-none">
+                <p>
+                  hOME
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-12">
+              <a href="./pages/products.html" class="fs-5 text-black text-decoration-none">
+                <p>
+                  pRODUCT_lIST
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-12">
+              <a href="./pages/locations.html" class="fs-5 text-black text-decoration-none">
+                <p>
+                  lOCATIONS
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-12">
+              <a href="./pages/contact.html" class="fs-5 text-black text-decoration-none">
+                <p>
+                  cONTACT_uS
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-12">
+              <a href="./pages/history.html" class="fs-5 text-black text-decoration-none">
+                <p>
+                  aBOUT_uS
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
