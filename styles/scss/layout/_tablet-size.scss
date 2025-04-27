@@ -1,0 +1,10 @@
+/* applies to medium devices (tablets, less than 1024px) */
+@media (min-width: 768px) {
+    body {
+       
+    }
+
+    .banner img {
+        width: 100%;
+    }
+}

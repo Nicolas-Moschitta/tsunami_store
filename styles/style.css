@@ -4,4 +4,47 @@
   box-sizing: border-box;
 }
 
+html {
+  max-width: 100%;
+  background-color: #ebf7f8;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  background-color: #ebf7f8;
+}
+
+/* applies to small devices (phones, less than 768px) */
+@media (min-width: 0px) {
+  .banner img {
+    width: 100%;
+  }
+}
+/* applies to medium devices (tablets, less than 1024px) */
+@media (min-width: 768px) {
+  .banner img {
+    width: 100%;
+  }
+}
+/* applies to large devices (desktops, to the max) */
+@media (min-width: 1024px) {
+  .banner img {
+    width: 100%;
+  }
+}
+.newsletter {
+  grid-area: newsletter;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: #caff42;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
