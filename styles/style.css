@@ -14,37 +14,147 @@ html {
 }
 
 body {
-  max-width: 90%;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   background-color: #ebf7f8;
 }
 
-/* applies to small devices (phones, less than 768px) */
-@media (min-width: 0px) {
-  .banner img {
-    width: 100%;
-  }
+.navbar {
+  border: 1px solid black;
+  background-color: #49708a;
+  height: 100%;
+  max-width: 100%;
 }
-/* applies to medium devices (tablets, less than 1024px) */
-@media (min-width: 768px) {
-  .banner img {
-    width: 100%;
-  }
+.navbar div {
+  height: 100%;
 }
-/* applies to large devices (desktops, to the max) */
-@media (min-width: 1024px) {
-  .banner img {
-    width: 100%;
-  }
+.navbar div a img {
+  width: 40px;
+  height: 40px;
 }
+.navbar div a :hover {
+  text-decoration: underline;
+}
+.navbar div div ul li {
+  position: relative;
+  margin: 0px 15px;
+}
+.navbar div div ul li a {
+  color: white;
+}
+.navbar div div ul li :after {
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: #caff42;
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+  transform: translateY(20px);
+}
+.navbar div div ul li :hover:after {
+  opacity: 1;
+  transform: translateY(15px);
+}
+
 .newsletter {
   grid-area: newsletter;
   border-radius: 5px;
   border: 2px solid white;
   background-color: #caff42;
   width: 100%;
+}
+
+.banner-style {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+}
+
+@media (min-width: 0px) {
+  .footer-img {
+    width: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .footer-img {
+    width: 70px;
+  }
+}
+@media (min-width: 992px) {
+  .footer-img {
+    width: 80px;
+  }
+}
+/* applies to small devices (phones, less than 768px) */
+@media (min-width: 0px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .banner img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  .navbar div a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+/* applies to medium devices (tablets, less than 1024px) */
+@media (min-width: 768px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .banner img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  .navbar div a img {
+    width: 35px;
+    height: 35px;
+  }
+}
+/* applies to large devices (desktops, to the max) */
+@media (min-width: 992px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  header nav div div .center {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  header nav div div .center .item {
+    width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  main {
+    width: 95%;
+    align-self: center;
+  }
+  .banner img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  .navbar div a img {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

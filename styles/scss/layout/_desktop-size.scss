@@ -1,11 +1,53 @@
 /* applies to large devices (desktops, to the max) */
-@media (min-width: 1024px) {
-    
+@media (min-width: 992px) {
+
     body {
-       
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        nav {
+            div {
+                div {
+                    .center {
+                        width: 100%;
+                        justify-content: flex-end;
+
+                        .item {
+                            width: auto;
+                            padding-left: 0px;
+                            padding-right: 0px;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        width: 95%;
+        align-self: center;
+        
     }
 
     .banner img {
         width: 100%;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+    .navbar{
+        div{
+            a{
+                img{
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+        }
     }
 }

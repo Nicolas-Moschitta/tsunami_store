@@ -1,10 +1,26 @@
 /* applies to small devices (phones, less than 768px) */
 @media (min-width: 0px) {
-    body {  
-
+    body {
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        
     }
 
     .banner img {
         width: 100%;
+        border-radius: 5px;
+        border: 1px solid white;
     }
+
+    .navbar{
+        div{
+            a{
+                img{
+                    width: 30px;
+                    height:30px;
+                }
+            }
+        }
+    }    
 }
