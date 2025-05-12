@@ -1,0 +1,13 @@
+.footer-nav{
+    a{
+        text-decoration: none;
+        p:hover{
+            text-decoration: underline;                      
+            text-decoration-color: #49708a;
+            color: #49708a;
+            transform: scale(1.1);            
+            transition: 0.3s;
+        }
+    }
+
+}

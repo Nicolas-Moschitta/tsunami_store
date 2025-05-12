@@ -77,19 +77,49 @@ body {
 
 @media (min-width: 0px) {
   .footer-img {
-    width: 60px;
+    width: 50px;
+    height: 50px;
   }
 }
 @media (min-width: 768px) {
   .footer-img {
-    width: 70px;
+    width: 60px;
+    height: 60px;
   }
 }
 @media (min-width: 992px) {
   .footer-img {
-    width: 80px;
+    width: 70px;
+    height: 70px;
   }
 }
+.footerLogo {
+  position: relative;
+}
+
+.secondaryLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.footerLogo:hover .secondaryLogo {
+  opacity: 1;
+}
+
+.footer-nav a {
+  text-decoration: none;
+}
+.footer-nav a p:hover {
+  text-decoration: underline;
+  text-decoration-color: #49708a;
+  color: #49708a;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 /* applies to small devices (phones, less than 768px) */
 @media (min-width: 0px) {
   body {
