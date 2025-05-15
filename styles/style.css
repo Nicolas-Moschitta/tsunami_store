@@ -73,6 +73,7 @@ body {
   width: 100%;
   padding: 20px;
   margin: 0px;
+  color: black;
 }
 
 @media (min-width: 0px) {
@@ -118,6 +119,31 @@ body {
   color: #49708a;
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+.zoom-card {
+  transition: transform 0.5s, transform 0.5s 0.3s;
+}
+
+.zoom-card:hover {
+  transform: scale(1.05);
+}
+
+.button-style {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  color: black;
+  transition: 0.4s all;
+  transition-delay: 0.3s;
+}
+
+.button-style:hover {
+  color: white;
+  border: 1px solid black;
+  transition-delay: 0s;
 }
 
 /* applies to small devices (phones, less than 768px) */

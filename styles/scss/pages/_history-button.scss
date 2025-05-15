@@ -1,0 +1,18 @@
+.button-style {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    color: black;
+    
+    transition: .4s all;
+    transition-delay: .3s;
+
+}
+
+.button-style:hover {
+    color: white;
+    border: 1px solid black;
+    transition-delay: 0s;
+}
